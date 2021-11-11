@@ -98,16 +98,16 @@ class Cliente extends Persona{
 let persona1 = new Persona('Juan', 'Perez', 28);
 console.log( persona1.toString());
 
-let persona2 = new Persona('Carlos', 'Ramirez', 35);
+let persona2 = new Persona('Ramiro', 'Ramirez', 35);
 console.log( persona2.toString() );
 
-let empleado1 = new Empleado('Karla', 'Gomez', '25', 5000);
+let empleado1 = new Empleado('Nicolas', 'Gomez', '25', 5000);
 console.log(empleado1.toString());
-let empleado2 = new Empleado('Laura', 'Quintero', 33, 7000);
+let empleado2 = new Empleado('Laura', 'Diaz', 33, 7000);
 console.log( empleado2.toString() );
 
-let cliente1 = new Cliente('Miguel', 'Cervantes', 30, new Date());
+let cliente1 = new Cliente('Miguel', 'Angel', 30, new Date());
 console.log( cliente1.toString() );
 
-let cliente2 = new Cliente('Maria', 'Lara', 38, new Date());
+let cliente2 = new Cliente('Oscar', 'Silva', 38, new Date());
 console.log(cliente2.toString());
