@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(to bottom right,
-            rgb(75, 16, 212), rgb(16, 35, 212));
+            rgb(24, 22, 29), rgb(122, 14, 64));
     font-family: 'Josefin Sans', sans-serif;
     display: flex;
     height: 100vh;
@@ -14,9 +14,8 @@ body {
     flex-direction: column;
     max-width: 500px;
     padding: 4px;
-    background: #fff;
+    background: rgb(236, 222, 222);
     border-radius: 10px;
-    border: 1px solid rgb(26, 1, 247);
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3);
 }
 
